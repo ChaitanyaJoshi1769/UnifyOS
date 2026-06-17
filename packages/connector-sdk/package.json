@@ -1,0 +1,21 @@
+{
+  "name": "@unifyos/connector-sdk",
+  "version": "0.1.0",
+  "description": "SDK for building custom UnifyOS connectors",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@unifyos/shared-types": "^0.1.0",
+    "@unifyos/shared-utils": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  }
+}
